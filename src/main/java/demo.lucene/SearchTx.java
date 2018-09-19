@@ -1,4 +1,4 @@
-package com.lucene;
+package demo.lucene;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
@@ -26,7 +26,7 @@ public class SearchTx {
     private Directory dir;
     private IndexReader reader;
     private IndexSearcher is;
-    private static final Logger log = LoggerFactory.getLogger(Indexer.class);
+    private static final Logger log = LoggerFactory.getLogger(SearchTx.class);
 
     @Before
     public void setUp() throws Exception {

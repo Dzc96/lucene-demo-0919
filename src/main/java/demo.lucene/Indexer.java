@@ -1,4 +1,4 @@
-package com.lucene;
+package demo.lucene;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
